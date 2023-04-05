@@ -1,0 +1,723 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>KHEDMA DZ WEBSITE</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="Chain App Dev">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav" dir="rtl">
+              <li class="scroll-to-section"><a href="#top" class="active">الصفحة الرئيسية</a></li>
+              <li class="scroll-to-section"><a href="#services">خدماتنا</a></li>
+              <li class="scroll-to-section"><a href="#about">من نحن</a></li>
+              <li class="scroll-to-section"><a href="#pricing">عملنا</a></li>
+              <li class="scroll-to-section"><a href="#newsletter">للتواصل معنا</a></li>
+              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> سجل الآن</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>القائمة</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="https://www.facebook.com/people/Khedma-dz/100072054003227/" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">صفحتنا على الفايسبوك</span>
+
+                </a>
+
+                <a href="khedmadzrh@outlook.fr" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">التواصل عبر غوغل</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>إستعمل بريدك الإلكتروني</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">دخول</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">تسجيل</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form>
+                <label>Email / Username</label>
+                <input type="text" />
+                <br />
+
+                <label>Password</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Remember me on this computer</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Forgot password?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form>
+                <label>Full Name</label>
+                <input type="text" />
+                <br />
+
+                <label>Email Address</label>
+                <input type="email" />
+                <br />
+
+                <label>Password</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Send me occasional email updates</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>التطبيق الشامل </h2>
+                    <p>الحل الشامل الجامع و الأسرع في إيجاد عروض العمل و الوظائف ببضع نقرات</p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="white-button first-button scroll-to-section">
+                    </div>
+                    <div class="white-button scroll-to-section">
+                      <a href="https://www.facebook.com/people/Khedma-dz/100072054003227/">أطلب نسختك <i class="fab fa-google-play"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/blog-2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>خدماتنا</h4>
+            <h4>     </h4>
+            <h4>أملنا أن نكون سببا في التغيير ما دمنا قادرين</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>التطبيق الخاص بعروض العمل هو بمثابة الشامل للسوق الوظيفي و الأول من نوعه , بالتالي نحن سعداء بمساهماتنا                                    س</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item first-service">
+            <div class="icon"></div>
+            <h4>مصادر العمل و العروض </h4>
+            <p>مصادر مختلفة لعروض الوظائف و العروض و التي تصلك عبر التطبيق عند نشرها مباشرة من المصدر</p>
+            <div class="text-button">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>الرد السريع على الرسائل</h4>
+            <p>هو ايجاد الحلول و تسهيل عملية الربط بين صاحب العمل و طالبيه.</p>
+            <div class="text-button">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item third-service">
+            <div class="icon"></div>
+            <h4>الحل المتميز</h4>
+            <p>كل مشكلة و لها حل , و الحل للبطالة هو الاشتراك بحساب في تطبيقنا <a rel="nofollow" href="https://www.facebook.com/people/Khedma-dz/100072054003227/" target="_blank">دعمكم يهمنا</a>. شكرا.</p>
+            <div class="text-button">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item fourth-service">
+            <div class="icon"></div>
+            <h4>24/7 تحديثات و دعم</h4>
+            <p>نمتلك تطبيق أندرويد ممتاز لتسهيل العملية وتجنب المشاكل التي قد تواجهها في البحث عن العمل</p>
+            <div class="text-button">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4>      من نحن     </h4>
+            <h4>    </h4>
+            <h4>تطبيق الأندرويد الخاص بنا</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>نمتلك تطبيق أندرويد ممتاز لتسهيل العملية وتجنب المشاكل التي قد تواجهها في البحث عن العمل</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">اشتراك واحد</a></h4>
+                <p>يعتمد التطبيق على استعمال المصادر مباشرة للمتعاملين بتحيثات العروض يوميا.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">24/7 دعم متواصل</h4>
+                <p>مساعدتكم غايتنا دائما و هي من أولوياتنا</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">بدون صلاحيات ولا إعلانات</a></h4>
+                <p>نحن نقدم خدمة متكاملة وفعالة للمتقدمين إلى العمل، حيث نساعدك على العثور على الوظيفة المثالية لك ونعطيك الدعم اللازم للحصول عليها</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">نوفر عروض العمل و الوظائف</a></h4>
+                <p> بشكل يومي و بواجهة سهلة الإستعمال و ربط مباشر مع صاحب العمل</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <p>لقد وفرنا لكم تطبيق أندرويد متكامل و بتحديثات يومية  هو بمثابة دعم و محرك بحث يوفر عليكم أشهر و سنوات من الإنتظار و اليأس</p>
+              <div class="gradient-button">
+                <a href="https://www.facebook.com/people/Khedma-dz/100072054003227/">أطلب نسختك الآن</a>
+              </div>
+              <span>نحن تحت تصرفكم</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="assets/images/blog-1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="clients" class="the-clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>إحصائياتنا</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>
+              <p>نحن نقدم خدمة متكاملة وفعالة للمتقدمين إلى العمل، حيث نساعدك على العثور على الوظيفة المثالية لك ونعطيك الدعم اللازم للحصول عليها</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-7 align-self-center">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>رضا العملاء</h4>
+                            <span class="date"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">نولي إهتمام كبير  لمساعدتكم</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.8</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>إيجاد العمل عبرالتطبيق</h4>
+                            <span class="date"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">بالإستعمال اليومي </span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.5</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>إيجاد العمل و الوظائف بتدخل منا</h4>
+                            <span class="date"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">نحرص دوما على مرافقتكم</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.7</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>عملاء من خلال شبكات التواصل الإجتماعي</h4>
+                            <span class="date"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">شبكات التواصل الإجتماعية ضرورية للتواصل معنا و طلب الدعم</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.5</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="last-thumb">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>عروض من الشركات الخاصة</h4>
+                            <span class="date"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">عملنا هو كوننا همزة وصل بينكم و بين أصحاب العمل</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.3</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-lg-5">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>لقد وفرنا لكم حلا قد يكون الضرورة الأولى في قائمة إحتياجاتك. فلا مزيدمن التأخير
+                                  بعد التوكلى الله , كن أنت من يقرر</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/testi-1.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>البروفيسور</h4>
+                                  <span>CEO</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>الهاتف صار من أساسيات الحياة و إستعمالها صار لازما , و عليه إرتأينا أن نعرض خدماتنا من خلاله</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/bg.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>ك . س </h4>
+                                  <span> الإدارة الداخلية</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>يمكنكم إستعمال التطبيق من الهاتف الأندرويد كما يمكنكم. التواصل معنا من الحاسوب بالإتصال بنا على صفحتنا على الفايسبوك أو التلغرام أو </p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/testi-1.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>kim</h4>
+                                  <span>Founder </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>هدا الموقع هو بمثابة منصة و مجهودات من شباب أراد إحداث فرق في محيطه و ترك بصمة</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/testi-1.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>KAR . SOU</h4>
+                                  <span>Manager, Digital Company</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>الهاتف صار من أساسيات الحياة و إستعمالها صار لازما ,و عليه إرتأينا أن نعرض خدماتنا من خلاله</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/photo_2022-12-27_20-48-41.jpg" alt="">
+                                <div class="right-content">
+                                  <h4> DJAHID DEV</h4>
+                                  <span>Development</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing" class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>عملنا</h4>
+
+            <h4>الإشتراك   <em>بحساب</em> شخصي</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>بعد الإشتراك بحساب شخصي على تطبيق كل ما عليكم فعله هوإدراج تخصصكم في خانات البحث في كل مصدر تختاره</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price"></span>
+            <h4>إرضاؤكم غايتنا</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>سهولة إستعمال</li>
+              <li>واجهة مبسطة</li>
+              <li >مصادر مختلفة</li>
+              <li >تحديثات يومية</li>
+              <li >عروض في كل ساعة</li>
+              <li >إنشاء سير داتية</li>
+            </ul>
+            <div class="border-button">
+              <a href="https://www.facebook.com/people/Khedma-dz/100072054003227/">صفحة الفايسبوك</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-pro">
+            <span class="price"></span>
+            <h4>إجابة على الرسائل</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>دعم تقني للتطبيق</li>
+              <li>مساعدة المتعاملين</li>
+              <li>مرافقتهم  في بحثهم</li>
+              <li>الحرص على وصولهم لغايتهم</li>
+              <li >فريق تقني متفان</li>
+              <li >عمل داخلي جبار</li>
+            </ul>
+            <div class="border-button">
+              <a href="">هدفنا ترك بصمة</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price"></span>
+            <h4>وإيجاد الحلول</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>الإيجابية وإيجاد الحلول هي عملتنا</li>
+              <li></li>
+              <li>تنوع فريقنا</li>
+              <li>طول خبراتنا</li>
+              <li>يخولاننا</li>
+              <li>ان نصنع فارقا متفردا عمن حولنا</li>
+              <li>أفكارنا نجسدها لواقع</li>
+            </ul>
+            <div class="border-button">
+              <a href="">الأوائل في فكرة شمولية المصادر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <footer id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>للإتصال بنا عبر البريد الإلكتروني</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3">
+          <form id="search" action="khedmadzrh@outlook.fr" method="GET">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <button type="submit" class="main-button">إشترك الآن  <i class="fa fa-angle-right"></i></button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>للإتصال بنا</h4>
+            <p>الجزائر العاصمة </p>
+            <p><a href="#">0774126838</a></p>
+            <p><a href="#"></a></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>من نحن</h4>
+            <ul>
+              <li><a href="#"> الصفحة الرئيسية</a></li>
+              <li><a href="#services">خدماتنا</a></li>
+              <li><a href="#about">من نحن</a></li>
+              <li><a href="#pricing">عملنا</a></li>
+              <li><a href="#newsletter">للتواصل معنا</a></li>
+            </ul>
+           
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>روابط مهمة</h4>
+            <ul>
+              <li><a href="https://www.facebook.com/people/Khedma-dz/100072054003227/">صفحة الفايسبوك</a></li>
+              <li><a href="#">اليوتوب</a></li>
+              <li><a href="#">مصمم الموقع</a></li>
+              <li><a href="#">مصمم التطبيق</a></li>
+              <li><a href="#">مشاريع قادمة</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">فريق الإدارة الداخلية</a></li>
+              <li><a href="#">فريق التصميم</a></li>
+              <li><a href="#">المهندسون</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>وكالتنا</h4>
+            <div class="logo">
+              <img src="assets/images/white-logo.png" alt="">
+            </div>
+            <p>غايتنا إيجاد حل لكل عاطل عن العمل</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <p>KRM DEV 
+          <br> <a href="https://www.facebook.com/people/Khedma-dz/100072054003227/" target="_blank" title="css templates">COPYRIGHTS</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
